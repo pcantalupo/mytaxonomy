@@ -1,11 +1,15 @@
-# Download taxonomy
+# MyTaxonomy
 
-```bash
-installtaxonomy.pl &
+## Usage
+
+Install [Bio::LITE::Taxonomy::NCBI::Gi2taxid](http://search.cpan.org/~motif/Bio-LITE-Taxonomy-NCBI-Gi2taxid/). Then do the following:
+
+```
+cd bin/
+installtaxonomy.pl
+makebin.pl
 ```
 
-# Make BIN files
 
-In order to use the gi_taxid.dmp files with Bio::LITE::Taxonomy::NCBI::Gi2taxid you need to make BIN files (aka dictionary files) with `bin/makebin.pl`
 
 
