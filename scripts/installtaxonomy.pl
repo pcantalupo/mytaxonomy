@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use Getopt::Long;
 
-my $base  = "ftp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/";
+my $base  = "https://ftp.ncbi.nlm.nih.gov/pub/taxonomy/";
 
 my $acc2taxid = 0;
 my $force = 0;
